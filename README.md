@@ -21,8 +21,8 @@ Une application Python pour capturer du texte chinois avec une caméra et le tra
 
 1. **Cloner ou télécharger le projet**
    ```bash
-   git clone <url-du-repo>
-   cd video
+   git clone https://github.com/Steven-dev-code/Chinese-to-french-.git
+   cd Chinese-to-french-
    ```
 
 2. **Installer les dépendances**
@@ -64,10 +64,16 @@ Une application Python pour capturer du texte chinois avec une caméra et le tra
 ## Structure du projet
 
 ```
-video/
-├── main.py              # Application principale
-├── requirements.txt     # Dépendances Python
-└── README.md           # Documentation
+Chinese-to-french-/
+├── main.py                      # Application principale
+├── main_alternative.py          # Version alternative (plus compatible)
+├── requirements.txt             # Dépendances principales
+├── requirements_alternative.txt # Dépendances alternatives
+├── install.bat                  # Script d'installation Windows
+├── install_alternative.bat      # Script d'installation alternative
+├── run.bat                      # Script de lancement Windows
+├── run_alternative.bat          # Script de lancement alternative
+└── README.md                    # Documentation
 ```
 
 ## Dépannage
@@ -107,4 +113,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 Si vous rencontrez des problèmes, veuillez :
 1. Vérifier que toutes les dépendances sont installées
 2. Consulter la section dépannage
-3. Créer une issue sur le repository avec les détails du problème 
+3. Créer une issue sur le repository avec les détails du problème
